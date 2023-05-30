@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="background-color:rebeccapurple ;"></h1>
+    <script>
+    //     let arr = new Array();
+    //     arr[0] = 10;
+    //     arr[1] = 12;
+    //     arr[2] = 13; 
+    //     delete arr[1];
+    //    console.log(arr);
+    let arr= [
+        [11,"SHAYAN","PASS"],
+        [12,"FAHAD","FAIL"],
+        [13,"ALI","PASS"],
+    ]
+  document.write("<table border='2'>");
+    for(let i =0; i<arr.length; i++ ){
+        document.write("<tr>")
+        for(let j=0; j<arr.length; j++){
+            document.write("<td>");
+         document.write(arr[i][j])
+         document.write("</td>");
+        }
+        document.write("</tr>");
+    }
+    document.write("</table>");
+        </script>
+</body>
+</html>
